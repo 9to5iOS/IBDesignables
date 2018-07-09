@@ -15,6 +15,7 @@
 		8494E34F20F336C00091E352 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494E34E20F336C00091E352 /* main.m */; };
 		8494E35920F336C00091E352 /* IBDesignablesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494E35820F336C00091E352 /* IBDesignablesTests.m */; };
 		8494E36420F336C00091E352 /* IBDesignablesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494E36320F336C00091E352 /* IBDesignablesUITests.m */; };
+		8494E37320F3392B0091E352 /* view_IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494E37220F3392B0091E352 /* view_IBDesignable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8494E35F20F336C00091E352 /* IBDesignablesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBDesignablesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8494E36320F336C00091E352 /* IBDesignablesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBDesignablesUITests.m; sourceTree = "<group>"; };
 		8494E36520F336C00091E352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8494E37120F3392B0091E352 /* view_IBDesignable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = view_IBDesignable.h; sourceTree = "<group>"; };
+		8494E37220F3392B0091E352 /* view_IBDesignable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = view_IBDesignable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				8494E34220F336B00091E352 /* ViewController.h */,
 				8494E34320F336B00091E352 /* ViewController.m */,
 				8494E34520F336B00091E352 /* Main.storyboard */,
+				8494E37120F3392B0091E352 /* view_IBDesignable.h */,
+				8494E37220F3392B0091E352 /* view_IBDesignable.m */,
 				8494E34820F336C00091E352 /* Assets.xcassets */,
 				8494E34A20F336C00091E352 /* LaunchScreen.storyboard */,
 				8494E34D20F336C00091E352 /* Info.plist */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8494E34420F336B00091E352 /* ViewController.m in Sources */,
+				8494E37320F3392B0091E352 /* view_IBDesignable.m in Sources */,
 				8494E34F20F336C00091E352 /* main.m in Sources */,
 				8494E34120F336B00091E352 /* AppDelegate.m in Sources */,
 			);
